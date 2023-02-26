@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu_ber{
+    background: rgb(0, 100, 0);
+    text-align: center;
+}
+.menu_ber ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.menu_ber ul li{
+    width: 120%;
+    margin: 15px;
+    padding: 15px;
+}
+.menu_ber ul li a{
+    text-decoration: none;
+    color: rgb(233, 220, 220);
+}
+.menu_ber ul li a:hover{
+    color: aqua;
+}
